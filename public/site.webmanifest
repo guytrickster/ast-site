@@ -1,0 +1,11 @@
+{
+  "name": "АСТ-Карьерные решения",
+  "short_name": "АСТ",
+  "description": "Дробильно-сортировочное оборудование Liming и запчасти для ДСО",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14161a",
+  "theme_color": "#17191d"
+}
