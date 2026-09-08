@@ -93,7 +93,6 @@ export function Hero() {
             >
               Каталог оборудования <Arrow />
             </Btn>
-            
             <Btn
               variant="ghost"
               className="w-full sm:w-auto flex items-center justify-center gap-2"
@@ -102,14 +101,15 @@ export function Hero() {
               <Timer className="h-4 w-4 shrink-0 text-brand" />
               <span className="text-center">Расчёт ТКП – до 24 часов</span>
             </Btn>
-            
             <Btn 
               href="#/parts" 
               variant="ghost" 
-              className="w-full sm:w-auto flex items-center justify-center gap-2"
+              className="w-full sm:w-auto text-center"
             >
-              <FileSpreadsheet className="h-4 w-4 shrink-0 text-brand" />
-              <span className="text-center">Пакетный запрос по ведомости</span>
+              <span className="inline-block text-center max-w-[280px]">
+                <FileSpreadsheet className="h-4 w-4 shrink-0 text-brand inline-block align-middle mr-2 -mt-0.5" />
+                <span className="align-middle">Пакетный запрос по ведомости</span>
+              </span>
             </Btn>
           </div>
 
