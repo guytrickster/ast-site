@@ -93,19 +93,23 @@ export function Hero() {
               Каталог оборудования <Arrow />
             </Btn>
             <Btn
-              variant="ghost"
-              className="w-full sm:w-auto flex items-start justify-center text-center gap-2"
+              variant="ghost" 
+              className="w-full sm:w-auto flex justify-center text-center">
+              <span className="inline-flex items-start text-center gap-2">
               onClick={() => lead.open("Расчёт ТКП: дробильно-сортировочный комплекс")}
             >
-              <Timer className="h-4 w-4 shrink-0 text-brand mt-1" />
+              <Timer className="h-4 w-4 shrink-0 text-brand" />
               Расчёт ТКП — до 24 часов
+              </span>
             </Btn>
             <Btn 
               href="#/parts" 
               variant="ghost" 
-              className="w-full sm:w-auto flex items-start justify-center text-center gap-2">
-              <FileSpreadsheet className="h-4 w-4 shrink-0 text-brand mt-1" />
+              className="w-full sm:w-auto flex justify-center text-center">
+              <span className="inline-flex items-start text-center gap-2">
+              <FileSpreadsheet className="h-4 w-4 shrink-0 text-brand" />
               Пакетный запрос по ведомости
+              </span>
             </Btn>
           </div>
 
