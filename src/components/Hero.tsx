@@ -92,15 +92,18 @@ export function Hero() {
             </Btn>
             <Btn
               variant="ghost"
-              className="w-full sm:w-auto"
+              className="w-full sm:w-auto flex items-center justify-center gap-2"
               onClick={() => lead.open("Расчёт ТКП: дробильно-сортировочный комплекс")}
             >
               <Timer className="h-4 w-4 text-brand" />
               Расчёт ТКП — до 24 часов
             </Btn>
-            <Btn href="#/parts" variant="ghost" className="w-full text-center sm:w-auto">
+            <Btn 
+              href="#/parts" 
+              variant="ghost" 
+              className="w-full sm:w-auto flex items-center justify-center gap-2">
               <FileSpreadsheet className="h-4 w-4 shrink-0 text-brand" />
-              <span className="text-center">Пакетный запрос по ведомости</span>
+              Пакетный запрос по ведомости
             </Btn>
           </div>
 
