@@ -17,6 +17,7 @@ import imgPlant from "../assets/complex-plant.jpg";
 import imgWarehouse from "../assets/parts-warehouse.jpg";
 import imgEngineer from "../assets/engineer-field.jpg";
 import imgHero from "../assets/hero-quarry.jpg";
+import imgAboutCompany from "../assets/about-company.jpg";
 
 export const CDN = "https://www.jaw-crusher.com/wp-content/uploads/2025/07";
 const THEME = "https://www.jaw-crusher.com/wp-content/themes/limingfour/images";
@@ -35,7 +36,8 @@ export const MEDIA = {
 } as const;
 
 /** официальное фото производственно-выставочной площадки Liming */
-export const LIMING_COMPANY_PHOTO = `${THEME}/about/about-company.jpg`;
+export const LIMING_COMPANY_PHOTO = imgAboutCompany;
+
 
 /** соответствие серии оборудования официальному снимку завода */
 const SERIES: { test: RegExp; remote: string; local: string }[] = [
