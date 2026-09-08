@@ -98,7 +98,7 @@ export function Hero() {
             </Btn>
             <Btn href="#/parts" variant="ghost" className="w-full sm:w-auto">
               <FileSpreadsheet className="h-4 w-4 shrink-0 text-brand" />
-              Пакетный запрос по ведомости</span>
+              Пакетный запрос по ведомости
             </Btn>
           </div>
 
